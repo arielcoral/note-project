@@ -1,0 +1,14 @@
+{
+  "note1": {
+    "backgroundcolor": "#ff83c1",
+    "date": "23-07-2023",
+    "title": "hello world",
+    "text": "hello my name is ariel coral and in learning a code hello my name is ariel coral and in learning a code"
+  },
+  "note2": {
+    "backgroundcolor": "#ff83c1",
+    "date": "23-07-2023",
+    "title": "hello universe",
+    "text": "hello, I'm another object with a different id"
+  }
+}

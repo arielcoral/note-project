@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="note-img.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="style.css">
+    <title>Note Project</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h2 id="user_name">user name</h2>
+        <button title="search date" id="search_date"><i class="fa-solid fa-calendar-days"></i></i></button>
+        <input type="text" id="search_input" placeholder="search...">
+        <button title="add note" id="add_note">+</button>
+        <button title="remove note" id="remove_note"><i class="fa-solid fa-trash"></i></button>
+        <button title="update note" id="update_note"><i class="fa-solid fa-pencil"></i></i></button>
+        <button title="exit" id="exit"><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+      </header>
+      <div class="mobile">
+        <h2 id="user_name">user name<br> user name</h2>
+        <div id="myLinks">
+          <a>add new note</a>
+          <a>remove note</a>
+          <a>remove all</a>
+        </div>
+        <a title="main_mobile" id="main_mobile"><i class="fa-solid fa-bars"></i></button>
+      </div>
+      <div id="notes">
+      </div>
+  
+
+    <div id="popup">
+      <button id="close-popup-btn">X</button>
+      <br />
+      <input type="textbox" id="title_note" placeholder="title...">
+      <br />
+      <textarea id="text_note" placeholder="text..." rows="5"></textarea>
+      <br />
+      <label for="options">please choose color:</label>
+          <select id="options" name="options">
+            <option color="ffffff" value="option1">white</option>
+            <option color="f351ff" value="option1">pink</option>
+            <option color="fcf071" value="option1">yellow</option>
+            <option color="898989" value="option1">gray</option>
+            <option color="ff8282" value="option1">red</option>
+          </select>
+          <br />
+          <label for="note_date">please choose date:</label>
+          <br />
+          <input type="date" name="note_date" id="note_date">
+      <br />    
+      <button id="add_new_note">add</button>
+    </div>
+    <div id="remove_all">
+        <h1 id="text_remove">delete all are you sure.</h1>
+        <div id="toInput">
+          <input type="text" id="inputUserName" />
+        </div>
+        <button id="yes_remove">yes</button>
+        <button id="no_remove">no</button>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
